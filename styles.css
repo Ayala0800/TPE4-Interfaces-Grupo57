@@ -1,0 +1,105 @@
+:root{
+    --bg-color-descarga: #5829BF;
+}
+
+body{
+    width: 1080px;
+    margin: 0 auto;
+    font-family: 'Lato';
+}
+
+p, h1, h2,h3,h4{
+    font-family: 'Lato';
+}
+
+.section-descarga{
+    width: 1080px;
+    background-color: var(--bg-color-descarga);
+}
+
+.section-descarga img{
+    width: 1080px;
+    margin: 0 auto;
+}
+
+/* COLUMNAS */
+
+.container-tiulo-col h3{
+    font-weight: 600;
+    font-size: 60px;
+    margin-left: 100px;
+    line-height: 56.7px;
+}
+
+.section-columnas{
+    display: flex;
+    width: 1080px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.container-text-col{
+    width: 467px;
+    height: 4469px;
+    position: relative;
+    top: 91px;
+}
+
+.item-text-col{
+    margin-bottom: 320px;
+}
+
+.item-text-col-titulo{
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 37.8px;
+}
+
+.section-columnas-titulo{
+    position: relative;
+    left: 100px;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 37.8px;
+}
+
+.section-columnas-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+  
+.img-col-activa {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+    height: 100vh; /* Para que se quede fija en el viewport */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-img-col{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+}
+
+.img-col {
+    opacity: 1;
+    position: absolute;
+    top: 10px;
+}
+
+.hide{
+    opacity: 0;
+}
+
