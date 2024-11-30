@@ -10,6 +10,7 @@ body{
 
 p, h1, h2,h3,h4{
     font-family: 'Lato';
+    margin: 0;
 }
 
 .section-descarga{
@@ -75,15 +76,6 @@ p, h1, h2,h3,h4{
     transform: scale(1);
 }
 
-.sticky {
-    position: sticky;
-    top: 0;
-    height: 100vh; /* Para que se quede fija en el viewport */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 .container-img-col{
     position: relative;
     display: flex;
@@ -97,6 +89,14 @@ p, h1, h2,h3,h4{
     opacity: 1;
     position: absolute;
     top: 10px;
+}
+
+.sticky {
+    position: sticky;
+    top: calc(50vh - 50%); /* Centrado en la mitad de la pantalla */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .hide{
